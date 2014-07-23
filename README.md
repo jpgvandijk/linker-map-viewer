@@ -9,3 +9,7 @@ Features:
 - Memory Tree viewer showing the subregions in every region, and all data in each subregion
 - Memory Picture visualizing the region selected in the memory tree, highlighting the selected subregion/data
 - Memory Details viewer showing the details of any item clicked on in either the memory configuration viewer, memory contents viewer or memory tree viewer.
+
+Examples are added in the "examples" directory.
+
+![Example Screenshot](https://raw.githubusercontent.com/jpgvandijk/linker-map-viewer/master/examples/example.png)

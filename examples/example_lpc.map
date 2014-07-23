@@ -1,0 +1,599 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+OneWireTaskAndStatus
+                    0x4               ./src/test/onewire_test.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/test/heap_test.o
+ .data          0x00000000        0x0 ./src/test/heap_test.o
+ .bss           0x00000000        0x0 ./src/test/heap_test.o
+ .bss.KERNEL_Heap
+                0x00000000      0x800 ./src/test/heap_test.o
+ .text.DEBUG_HeapUpdate
+                0x00000000       0x54 ./src/test/heap_test.o
+ .bss.DEBUG_HeapPointers
+                0x00000000      0x400 ./src/test/heap_test.o
+ .text.DEBUG_HeapTest
+                0x00000000       0x84 ./src/test/heap_test.o
+ .text.DEBUG_HeapTestMerge
+                0x00000000       0x4c ./src/test/heap_test.o
+ .ARM.attributes
+                0x00000000       0x21 ./src/test/heap_test.o
+ .debug_line    0x00000000       0xcb ./src/test/heap_test.o
+ .debug_info    0x00000000       0x89 ./src/test/heap_test.o
+ .debug_abbrev  0x00000000       0x12 ./src/test/heap_test.o
+ .debug_aranges
+                0x00000000       0x30 ./src/test/heap_test.o
+ .debug_ranges  0x00000000       0x28 ./src/test/heap_test.o
+ .group         0x00000000        0x8 ./src/test/onewire_test.o
+ .group         0x00000000        0x8 ./src/test/onewire_test.o
+ .group         0x00000000        0x8 ./src/test/onewire_test.o
+ .group         0x00000000        0x8 ./src/test/onewire_test.o
+ .group         0x00000000        0x8 ./src/test/onewire_test.o
+ .group         0x00000000        0x8 ./src/test/onewire_test.o
+ .group         0x00000000        0x8 ./src/test/onewire_test.o
+ .data          0x00000000        0x0 ./src/test/onewire_test.o
+ .bss           0x00000000        0x0 ./src/test/onewire_test.o
+ .group         0x00000000        0x8 ./src/test/spi1_flash_test.o
+ .text          0x00000000        0x0 ./src/test/spi1_flash_test.o
+ .data          0x00000000        0x0 ./src/test/spi1_flash_test.o
+ .bss           0x00000000        0x0 ./src/test/spi1_flash_test.o
+ .debug_info    0x00000000       0x21 ./src/test/spi1_flash_test.o
+ .debug_abbrev  0x00000000       0x13 ./src/test/spi1_flash_test.o
+ .debug_aranges
+                0x00000000       0x18 ./src/test/spi1_flash_test.o
+ .debug_macro   0x00000000       0x11 ./src/test/spi1_flash_test.o
+ .debug_macro   0x00000000      0x844 ./src/test/spi1_flash_test.o
+ .debug_line    0x00000000       0x3e ./src/test/spi1_flash_test.o
+ .debug_str     0x00000000     0x2395 ./src/test/spi1_flash_test.o
+ .comment       0x00000000       0x71 ./src/test/spi1_flash_test.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/test/spi1_flash_test.o
+ .group         0x00000000        0x8 ./src/test/tft_test.o
+ .text          0x00000000        0x0 ./src/test/tft_test.o
+ .data          0x00000000        0x0 ./src/test/tft_test.o
+ .bss           0x00000000        0x0 ./src/test/tft_test.o
+ .debug_info    0x00000000       0x21 ./src/test/tft_test.o
+ .debug_abbrev  0x00000000       0x13 ./src/test/tft_test.o
+ .debug_aranges
+                0x00000000       0x18 ./src/test/tft_test.o
+ .debug_macro   0x00000000       0x11 ./src/test/tft_test.o
+ .debug_macro   0x00000000      0x844 ./src/test/tft_test.o
+ .debug_line    0x00000000       0x37 ./src/test/tft_test.o
+ .debug_str     0x00000000     0x238e ./src/test/tft_test.o
+ .comment       0x00000000       0x71 ./src/test/tft_test.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/test/tft_test.o
+ .text          0x00000000        0x0 ./src/lpc/main.o
+ .data          0x00000000        0x0 ./src/lpc/main.o
+ .bss           0x00000000        0x0 ./src/lpc/main.o
+ .text          0x00000000        0x0 ./src/lpc/pin.o
+ .data          0x00000000        0x0 ./src/lpc/pin.o
+ .bss           0x00000000        0x0 ./src/lpc/pin.o
+ .text          0x00000000        0x0 ./src/lpc/system.o
+ .data          0x00000000        0x0 ./src/lpc/system.o
+ .bss           0x00000000        0x0 ./src/lpc/system.o
+ .text.SystemDelayMs
+                0x00000000        0xe ./src/lpc/system.o
+ .text.SystemDisablePeripheral
+                0x00000000       0x10 ./src/lpc/system.o
+ .text          0x00000000        0x0 ./src/cortex_m3.o
+ .data          0x00000000        0x0 ./src/cortex_m3.o
+ .bss           0x00000000        0x0 ./src/cortex_m3.o
+ .text.NVIC_IRQPriority
+                0x00000000       0x14 ./src/cortex_m3.o
+ .text.NVIC_IRQTrigger
+                0x00000000        0xc ./src/cortex_m3.o
+ .text          0x00000000        0x0 ./src/helper.o
+ .data          0x00000000        0x0 ./src/helper.o
+ .bss           0x00000000        0x0 ./src/helper.o
+ .text          0x00000000        0x0 ./src/kernel_exceptions.o
+ .data          0x00000000        0x0 ./src/kernel_exceptions.o
+ .bss           0x00000000        0x0 ./src/kernel_exceptions.o
+ .text          0x00000000        0x0 ./src/kernel_exclusiveaccess.o
+ .data          0x00000000        0x0 ./src/kernel_exclusiveaccess.o
+ .bss           0x00000000        0x0 ./src/kernel_exclusiveaccess.o
+ .text          0x00000000        0x0 ./src/kernel_heap.o
+ .data          0x00000000        0x0 ./src/kernel_heap.o
+ .bss           0x00000000        0x0 ./src/kernel_heap.o
+ .text          0x00000000        0x0 ./src/kernel_scheduler.o
+ .data          0x00000000        0x0 ./src/kernel_scheduler.o
+ .bss           0x00000000        0x0 ./src/kernel_scheduler.o
+ .text          0x00000000        0x0 ./src/onewire.o
+ .data          0x00000000        0x0 ./src/onewire.o
+ .bss           0x00000000        0x0 ./src/onewire.o
+ .text          0x00000000        0x0 ./src/startup.o
+ .data          0x00000000        0x0 ./src/startup.o
+ .bss           0x00000000        0x0 ./src/startup.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FlashMemory      0x00000000         0x00080000         xr
+LocalSRAM        0x10000000         0x00008000         xrw
+AHBSRAM          0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/test/heap_test.o
+LOAD ./src/test/onewire_test.o
+LOAD ./src/test/spi1_flash_test.o
+LOAD ./src/test/tft_test.o
+LOAD ./src/lpc/main.o
+LOAD ./src/lpc/pin.o
+LOAD ./src/lpc/system.o
+LOAD ./src/cortex_m3.o
+LOAD ./src/helper.o
+LOAD ./src/kernel_exceptions.o
+LOAD ./src/kernel_exclusiveaccess.o
+LOAD ./src/kernel_heap.o
+LOAD ./src/kernel_scheduler.o
+LOAD ./src/onewire.o
+LOAD ./src/startup.o
+                0x00080000                __top_FlashMemory = 0x80000
+                0x10008000                __top_LocalSRAM = 0x10008000
+                0x20084000                __top_AHBSRAM = 0x20084000
+
+.text           0x00000000      0xc40
+ FILL mask 0xff
+                0x00000000                . = 0x0
+ *(.interrupt_vectors)
+ .interrupt_vectors
+                0x00000000       0xcc ./src/startup.o
+                0x00000000                InterruptVectors
+                0x000000cc                . = ALIGN (0x4)
+ *(.section_table)
+ .section_table
+                0x000000cc       0x28 ./src/startup.o
+                0x000000cc                SectionTable
+                0x000000f4                . = ALIGN (0x4)
+ *(.after_vectors*)
+ .after_vectors.DefaultExceptionHandlers
+                0x000000f4        0x2 ./src/startup.o
+                0x000000f4                HardFault_Handler
+                0x000000f4                NMI_Handler
+                0x000000f4                UsageFault_Handler
+                0x000000f4                MemManage_Handler
+                0x000000f4                BusFault_Handler
+                0x000000f4                DebugMon_Handler
+ .after_vectors.DefaultInterruptHandlers
+                0x000000f6        0x2 ./src/startup.o
+                0x000000f6                TIMER2_IRQHandler
+                0x000000f6                RIT_IRQHandler
+                0x000000f6                I2C0_IRQHandler
+                0x000000f6                USBActivity_IRQHandler
+                0x000000f6                PWM1_IRQHandler
+                0x000000f6                I2C1_IRQHandler
+                0x000000f6                EINT2_IRQHandler
+                0x000000f6                UART1_IRQHandler
+                0x000000f6                EINT3_IRQHandler
+                0x000000f6                CANActivity_IRQHandler
+                0x000000f6                TIMER3_IRQHandler
+                0x000000f6                UART0_IRQHandler
+                0x000000f6                PLL0_IRQHandler
+                0x000000f6                CAN_IRQHandler
+                0x000000f6                PLL1_IRQHandler
+                0x000000f6                SSP0_IRQHandler
+                0x000000f6                I2S_IRQHandler
+                0x000000f6                I2C2_IRQHandler
+                0x000000f6                RTC_IRQHandler
+                0x000000f6                SPI_IRQHandler
+                0x000000f6                EINT1_IRQHandler
+                0x000000f6                TIMER1_IRQHandler
+                0x000000f6                UART2_IRQHandler
+                0x000000f6                ADC_IRQHandler
+                0x000000f6                SSP1_IRQHandler
+                0x000000f6                USB_IRQHandler
+                0x000000f6                BOD_IRQHandler
+                0x000000f6                WDT_IRQHandler
+                0x000000f6                QEI_IRQHandler
+                0x000000f6                EINT0_IRQHandler
+                0x000000f6                DMA_IRQHandler
+                0x000000f6                UART3_IRQHandler
+                0x000000f6                MCPWM_IRQHandler
+                0x000000f6                ENET_IRQHandler
+ .after_vectors.InitDataSection
+                0x000000f8        0xe ./src/startup.o
+                0x00000100                InitDataSection
+ .after_vectors.InitBssSection
+                0x00000106        0xa ./src/startup.o
+                0x0000010a                InitBssSection
+ .after_vectors.Reset_Handler
+                0x00000110       0x48 ./src/startup.o
+                0x00000110                Reset_Handler
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000158      0x1a4 ff
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/startup.o
+                0x000002fc                CRPWord
+ *(.text*)
+ .text          0x00000300       0xc4 ./src/test/onewire_test.o
+                0x00000304                TaskOWPerformance
+                0x00000314                TaskOW
+                0x00000384                OneWireCallbackFunction
+                0x0000039c                onewire_test
+ .text.main     0x000003c4        0xe ./src/lpc/main.o
+                0x000003c4                main
+ .text.main_BOD
+                0x000003d2        0x2 ./src/lpc/main.o
+                0x000003d2                main_BOD
+ .text.main_WDT
+                0x000003d4        0x2 ./src/lpc/main.o
+                0x000003d4                main_WDT
+ *fill*         0x000003d6        0x2 
+ .text.PinConfig
+                0x000003d8       0x38 ./src/lpc/pin.o
+                0x000003d8                PIN_SetInputMode
+                0x000003da                PIN_SetFunction
+                0x000003f6                PIN_SetOutputMode
+                0x00000402                PIN_SetI2C0PinConfiguration
+ .text.SystemInitClock
+                0x00000410       0x68 ./src/lpc/system.o
+                0x00000410                SystemInitClock
+ .text.SystemGetClock
+                0x00000478       0x58 ./src/lpc/system.o
+                0x00000478                SystemGetClock
+ .text.SystemInitPeripheral
+                0x000004d0       0x30 ./src/lpc/system.o
+                0x000004d0                SystemInitPeripheral
+ .text.NVIC_IRQControlStatusBits
+                0x00000500       0x3c ./src/cortex_m3.o
+                0x00000500                NVIC_IRQClearPending
+                0x00000504                NVIC_IRQSetPending
+                0x00000508                NVIC_IRQDisable
+                0x0000050c                NVIC_IRQEnable
+                0x0000051c                NVIC_IRQIsActive
+                0x00000520                NVIC_IRQIsPending
+                0x00000524                NVIC_IRQIsEnabled
+ .text.NVIC_EXCControlStatusBits
+                0x0000053c       0x40 ./src/cortex_m3.o
+                0x0000053c                NVIC_EXCSetPendingNMI
+                0x00000542                NVIC_EXCClearPendingSysTick
+                0x00000548                NVIC_EXCSetPendingSysTick
+                0x0000054e                NVIC_EXCClearPendingPendSV
+                0x00000554                NVIC_EXCSetPendingPendSV
+                0x0000055e                NVIC_EXCIsPendingNMI
+                0x00000564                NVIC_EXCIsPendingSysTick
+                0x0000056a                NVIC_EXCIsPendingPendSV
+ .text.NVIC_EXCPriority
+                0x0000057c       0x14 ./src/cortex_m3.o
+                0x0000057c                NVIC_EXCSetPriority
+                0x00000584                NVIC_EXCGetPriority
+ .text.NVIC_ControlFunctions
+                0x00000590       0x28 ./src/cortex_m3.o
+                0x00000590                NVIC_SetPriorityGrouping
+                0x0000059c                NVIC_SystemReset
+ .text.NumberToBitInWord
+                0x000005b8       0x10 ./src/helper.o
+                0x000005b8                NumberTo4BitsInWord
+                0x000005ba                NumberTo2BitsInWord
+                0x000005bc                NumberToBitInWord
+ .text.SVC_Handler
+                0x000005c8       0xd4 ./src/kernel_exceptions.o
+                0x000005c8                SVC_Handler
+ .text.SysTick_Handler
+                0x0000069c       0x5c ./src/kernel_exceptions.o
+                0x0000069c                SysTick_Handler
+ .text.PendSV_Handler
+                0x000006f8       0x34 ./src/kernel_exceptions.o
+                0x000006f8                PendSV_Handler
+ .text.KERNEL_GetExclusiveAccess
+                0x0000072c       0x16 ./src/kernel_exclusiveaccess.o
+                0x0000072c                KERNEL_GetExclusiveAccess
+ .text.KERNEL_ClearExclusiveAccess
+                0x00000742        0x6 ./src/kernel_exclusiveaccess.o
+                0x00000742                KERNEL_ClearExclusiveAccess
+ .text.HeapManagement
+                0x00000748       0xa0 ./src/kernel_heap.o
+                0x00000748                KERNEL_InitHeap
+                0x0000075a                KERNEL_Alloc
+                0x00000798                KERNEL_Free
+ .text.KERNEL_Init
+                0x000007e8       0x30 ./src/kernel_scheduler.o
+                0x000007e8                KERNEL_Init
+ .text.KERNEL_AddTask
+                0x00000818       0x60 ./src/kernel_scheduler.o
+                0x00000818                KERNEL_AddTask
+ .text.KERNEL_AddTaskToReadyList
+                0x00000878       0x20 ./src/kernel_scheduler.o
+                0x00000878                KERNEL_AddTaskToReadyList
+ .text.KERNEL_RemoveTaskFromReadyList
+                0x00000898       0x30 ./src/kernel_scheduler.o
+                0x00000898                KERNEL_RemoveTaskFromReadyList
+ .text.KERNEL_AddTaskToDelayedList
+                0x000008c8       0x20 ./src/kernel_scheduler.o
+                0x000008c8                KERNEL_AddTaskToDelayedList
+ .text.KERNEL_RemoveTaskFromDelayedList
+                0x000008e8       0x24 ./src/kernel_scheduler.o
+                0x000008e8                KERNEL_RemoveTaskFromDelayedList
+ .text.KERNEL_Start
+                0x0000090c       0x4c ./src/kernel_scheduler.o
+                0x0000090c                KERNEL_Start
+ .text.KERNEL_TaskIdle
+                0x00000958        0x4 ./src/kernel_scheduler.o
+                0x00000958                KERNEL_TaskIdle
+ .text.KERNEL_KillTask
+                0x0000095c        0x8 ./src/kernel_scheduler.o
+                0x0000095c                KERNEL_KillTask
+ .text.TIMER0_IRQHandler
+                0x00000964       0xf8 ./src/onewire.o
+                0x00000964                TIMER0_IRQHandler
+ .text.OW_StartTransfer
+                0x00000a5c       0x40 ./src/onewire.o
+                0x00000a5c                OW_StartTransfer
+ .text.OW_Init  0x00000a9c       0x34 ./src/onewire.o
+                0x00000a9c                OW_Init
+ .text.OW_InitPin
+                0x00000ad0       0x38 ./src/onewire.o
+                0x00000ad0                OW_InitPin
+ .text.OWSearch_InitReset
+                0x00000b08        0xc ./src/onewire.o
+                0x00000b08                OWSearch_Init
+                0x00000b08                OWSearch_Reset
+ .text.OWSearch_Next
+                0x00000b14       0x30 ./src/onewire.o
+                0x00000b14                OWSearch_Next
+ .text.OWSearch_Algorithm
+                0x00000b44       0xa0 ./src/onewire.o
+                0x00000b44                OWSearch_Algorithm
+ .text.OW_CheckCRC8
+                0x00000be4       0x2a ./src/onewire.o
+                0x00000be4                OW_CheckCRC8
+ *(.rodata .rodata.*)
+ *fill*         0x00000c0e        0x2 
+ .rodata        0x00000c10       0x20 ./src/test/onewire_test.o
+                0x00000c10                TaskDescriptor_TaskOW
+                0x00000c20                TaskDescriptor_TaskOWPerformance
+ .rodata.TaskDescriptors
+                0x00000c30       0x10 ./src/kernel_scheduler.o
+                0x00000c30                KERNEL_TaskIdleDescriptor
+                0x00000c40                . = ALIGN (0x4)
+
+.glue_7         0x00000c40        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000c40        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000c40        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000c40        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00000c40        0x0
+ .iplt          0x00000000        0x0 ./src/test/heap_test.o
+
+.rel.dyn        0x00000c40        0x0
+ .rel.iplt      0x00000000        0x0 ./src/test/heap_test.o
+
+.data_AHB       0x2007c000        0x0 load address 0x00000c40
+ FILL mask 0xff
+ *(.data.AHB*)
+                0x2007c000                . = ALIGN (0x4)
+                0x00000000                __data_AHB_Size = SIZEOF (.data_AHB)
+                0x00000c40                __data_AHB_LoadAddress = LOADADDR (.data_AHB)
+                0x2007c000                __data_AHB_StartAddress = ADDR (.data_AHB)
+                0x2007c000                __data_AHB_EndAddress = (ADDR (.data_AHB) + SIZEOF (.data_AHB))
+
+.data           0x10000000        0x0 load address 0x00000c40
+ FILL mask 0xff
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x00000000                __data_Size = SIZEOF (.data)
+                0x00000c40                __data_LoadAddress = LOADADDR (.data)
+                0x10000000                __data_StartAddress = ADDR (.data)
+                0x10000000                __data_EndAddress = (ADDR (.data) + SIZEOF (.data))
+
+.igot.plt       0x10000000        0x0 load address 0x00000c40
+ .igot.plt      0x00000000        0x0 ./src/test/heap_test.o
+
+.bss_AHB        0x2007c000       0x28
+ *(.bss.bitband*)
+ .bss.bitband.OW_TransferBuffers
+                0x2007c000       0x20 ./src/onewire.o
+                0x2007c000                OW_TransferWriteBuffer
+                0x2007c000                OW_TransferBuffers
+                0x2007c010                OW_TransferReadBuffer
+ .bss.bitband.OWSearch_ROM
+                0x2007c020        0x8 ./src/onewire.o
+                0x2007c020                OWSearch_ROM
+ *(.bss.AHB*)
+                0x2007c028                . = ALIGN (0x4)
+                0x00000028                __bss_AHB_Size = SIZEOF (.bss_AHB)
+                0x2007c000                __bss_AHB_StartAddress = ADDR (.bss_AHB)
+                0x2007c028                __bss_AHB_EndAddress = (ADDR (.bss_AHB) + SIZEOF (.bss_AHB))
+
+.bss            0x10000000      0x8e8
+ *(.bss*)
+ .bss.SystemClock
+                0x10000000        0x4 ./src/lpc/system.o
+                0x10000000                SystemClock
+ .bss.KERNEL_Time
+                0x10000004        0x8 ./src/kernel_exceptions.o
+                0x10000004                KERNEL_Time
+ .bss.KERNEL_Heap
+                0x1000000c      0x800 ./src/kernel_heap.o
+                0x1000000c                KERNEL_Heap
+ .bss.KERNEL_HeapEmptyList
+                0x1000080c        0x4 ./src/kernel_heap.o
+                0x1000080c                KERNEL_HeapEmptyList
+ .bss.KERNEL_TaskTable
+                0x10000810       0xa0 ./src/kernel_scheduler.o
+                0x10000810                KERNEL_TaskTable
+ .bss.KERNEL_TaskReadyLists
+                0x100008b0       0x10 ./src/kernel_scheduler.o
+                0x100008b0                KERNEL_TaskReadyLists
+ .bss.KERNEL_TaskDelayedList
+                0x100008c0        0x8 ./src/kernel_scheduler.o
+                0x100008c0                KERNEL_TaskDelayedList
+                0x100008c4                KERNEL_TaskDelayedListOverflow
+ .bss.KERNEL_TaskRunning
+                0x100008c8        0x4 ./src/kernel_scheduler.o
+                0x100008c8                KERNEL_TaskRunning
+ .bss.OW_TransferData
+                0x100008cc       0x10 ./src/onewire.o
+                0x100008cc                OW_TransferData
+                0x100008cc                OW_TransferInternalCount
+                0x100008ce                OW_TransferInternalStateAndLock
+                0x100008cf                OW_TransferResetAndStatus
+                0x100008d0                OW_TransferWriteNBits
+                0x100008d2                OW_TransferReadNBits
+                0x100008d4                OW_TransferPin
+                0x100008d8                OW_TransferCallbackFunction
+ .bss.OWSearch_Data
+                0x100008dc        0x8 ./src/onewire.o
+                0x100008dc                OWSearch_Data
+                0x100008dc                OWSearch_CallbackFunction
+                0x100008e0                OWSearch_CountAndStatus
+                0x100008e1                OWSearch_LastZero
+                0x100008e2                OWSearch_LastDiscrepancy
+                0x100008e4                . = ALIGN (0x4)
+ COMMON         0x100008e4        0x4 ./src/test/onewire_test.o
+                0x100008e4                OneWireTaskAndStatus
+                0x000008e8                __bss_Size = SIZEOF (.bss)
+                0x10000000                __bss_StartAddress = ADDR (.bss)
+                0x100008e8                __bss_EndAddress = (ADDR (.bss) + SIZEOF (.bss))
+
+.noinit_AHB     0x2007c028        0x0
+ *(.noinit.bitband*)
+ *(.noinit.AHB*)
+                0x2007c028                . = ALIGN (0x4)
+
+.noinit         0x100008e8        0x0
+ *(.noinit*)
+                0x100008e8                . = ALIGN (0x4)
+OUTPUT(CM3_Assembly.axf elf32-littlearm)
+
+.debug_info     0x00000000      0xac3
+ .debug_info    0x00000000      0x4f6 ./src/test/onewire_test.o
+ .debug_info    0x000004f6       0x83 ./src/lpc/main.o
+ .debug_info    0x00000579       0x86 ./src/lpc/pin.o
+ .debug_info    0x000005ff       0x85 ./src/lpc/system.o
+ .debug_info    0x00000684       0x84 ./src/cortex_m3.o
+ .debug_info    0x00000708       0x85 ./src/helper.o
+ .debug_info    0x0000078d       0x8c ./src/kernel_exceptions.o
+ .debug_info    0x00000819       0x91 ./src/kernel_exclusiveaccess.o
+ .debug_info    0x000008aa       0x8a ./src/kernel_heap.o
+ .debug_info    0x00000934       0x8b ./src/kernel_scheduler.o
+ .debug_info    0x000009bf       0x82 ./src/onewire.o
+ .debug_info    0x00000a41       0x82 ./src/startup.o
+
+.debug_abbrev   0x00000000      0x29e
+ .debug_abbrev  0x00000000      0x1d2 ./src/test/onewire_test.o
+ .debug_abbrev  0x000001d2       0x12 ./src/lpc/main.o
+ .debug_abbrev  0x000001e4       0x14 ./src/lpc/pin.o
+ .debug_abbrev  0x000001f8       0x12 ./src/lpc/system.o
+ .debug_abbrev  0x0000020a       0x12 ./src/cortex_m3.o
+ .debug_abbrev  0x0000021c       0x14 ./src/helper.o
+ .debug_abbrev  0x00000230       0x12 ./src/kernel_exceptions.o
+ .debug_abbrev  0x00000242       0x12 ./src/kernel_exclusiveaccess.o
+ .debug_abbrev  0x00000254       0x14 ./src/kernel_heap.o
+ .debug_abbrev  0x00000268       0x12 ./src/kernel_scheduler.o
+ .debug_abbrev  0x0000027a       0x12 ./src/onewire.o
+ .debug_abbrev  0x0000028c       0x12 ./src/startup.o
+
+.debug_loc      0x00000000       0x8d
+ .debug_loc     0x00000000       0x8d ./src/test/onewire_test.o
+
+.debug_aranges  0x00000000      0x288
+ .debug_aranges
+                0x00000000       0x20 ./src/test/onewire_test.o
+ .debug_aranges
+                0x00000020       0x30 ./src/lpc/main.o
+ .debug_aranges
+                0x00000050       0x20 ./src/lpc/pin.o
+ .debug_aranges
+                0x00000070       0x40 ./src/lpc/system.o
+ .debug_aranges
+                0x000000b0       0x48 ./src/cortex_m3.o
+ .debug_aranges
+                0x000000f8       0x20 ./src/helper.o
+ .debug_aranges
+                0x00000118       0x30 ./src/kernel_exceptions.o
+ .debug_aranges
+                0x00000148       0x28 ./src/kernel_exclusiveaccess.o
+ .debug_aranges
+                0x00000170       0x20 ./src/kernel_heap.o
+ .debug_aranges
+                0x00000190       0x60 ./src/kernel_scheduler.o
+ .debug_aranges
+                0x000001f0       0x58 ./src/onewire.o
+ .debug_aranges
+                0x00000248       0x40 ./src/startup.o
+
+.debug_macro    0x00000000     0x1358
+ .debug_macro   0x00000000       0x5d ./src/test/onewire_test.o
+ .debug_macro   0x0000005d      0x844 ./src/test/onewire_test.o
+ .debug_macro   0x000008a1       0x16 ./src/test/onewire_test.o
+ .debug_macro   0x000008b7       0x44 ./src/test/onewire_test.o
+ .debug_macro   0x000008fb      0x209 ./src/test/onewire_test.o
+ .debug_macro   0x00000b04      0x603 ./src/test/onewire_test.o
+ .debug_macro   0x00001107      0x181 ./src/test/onewire_test.o
+ .debug_macro   0x00001288       0xd0 ./src/test/onewire_test.o
+
+.debug_line     0x00000000      0xb72
+ .debug_line    0x00000000      0x292 ./src/test/onewire_test.o
+ .debug_line    0x00000292       0x63 ./src/lpc/main.o
+ .debug_line    0x000002f5       0x5d ./src/lpc/pin.o
+ .debug_line    0x00000352       0xf8 ./src/lpc/system.o
+ .debug_line    0x0000044a       0xf0 ./src/cortex_m3.o
+ .debug_line    0x0000053a       0x44 ./src/helper.o
+ .debug_line    0x0000057e       0xfe ./src/kernel_exceptions.o
+ .debug_line    0x0000067c       0x69 ./src/kernel_exclusiveaccess.o
+ .debug_line    0x000006e5       0x93 ./src/kernel_heap.o
+ .debug_line    0x00000778      0x16c ./src/kernel_scheduler.o
+ .debug_line    0x000008e4      0x1eb ./src/onewire.o
+ .debug_line    0x00000acf       0xa3 ./src/startup.o
+
+.debug_str      0x00000000     0x4c44
+ .debug_str     0x00000000     0x4c44 ./src/test/onewire_test.o
+                               0x4de3 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/test/onewire_test.o
+                                 0x71 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x33 ./src/test/onewire_test.o
+ .ARM.attributes
+                0x00000033       0x21 ./src/lpc/main.o
+ .ARM.attributes
+                0x00000054       0x21 ./src/lpc/pin.o
+ .ARM.attributes
+                0x00000075       0x21 ./src/lpc/system.o
+ .ARM.attributes
+                0x00000096       0x21 ./src/cortex_m3.o
+ .ARM.attributes
+                0x000000b7       0x21 ./src/helper.o
+ .ARM.attributes
+                0x000000d8       0x21 ./src/kernel_exceptions.o
+ .ARM.attributes
+                0x000000f9       0x21 ./src/kernel_exclusiveaccess.o
+ .ARM.attributes
+                0x0000011a       0x21 ./src/kernel_heap.o
+ .ARM.attributes
+                0x0000013b       0x21 ./src/kernel_scheduler.o
+ .ARM.attributes
+                0x0000015c       0x21 ./src/onewire.o
+ .ARM.attributes
+                0x0000017d       0x21 ./src/startup.o
+
+.debug_frame    0x00000000       0x88
+ .debug_frame   0x00000000       0x88 ./src/test/onewire_test.o
+
+.debug_ranges   0x00000000      0x1c8
+ .debug_ranges  0x00000000       0x28 ./src/lpc/main.o
+ .debug_ranges  0x00000028       0x38 ./src/lpc/system.o
+ .debug_ranges  0x00000060       0x40 ./src/cortex_m3.o
+ .debug_ranges  0x000000a0       0x28 ./src/kernel_exceptions.o
+ .debug_ranges  0x000000c8       0x20 ./src/kernel_exclusiveaccess.o
+ .debug_ranges  0x000000e8       0x58 ./src/kernel_scheduler.o
+ .debug_ranges  0x00000140       0x50 ./src/onewire.o
+ .debug_ranges  0x00000190       0x38 ./src/startup.o
