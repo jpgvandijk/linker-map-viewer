@@ -73,6 +73,13 @@ class DetailsTableModel extends AbstractTableModel
 		properties[0] = "";
 		values[0] = "";
 	}
+	
+	// Helpers
+	private String toLargeHexString (long number)
+	{
+		number &= 0xFFFFFFFF;
+		return "0x" + Long.toHexString(0x100000000L | number).substring(1).toUpperCase();
+	}
 
 	// Make it possible to set a new details object
 	public void setDetails (Object detailsObject) {
@@ -160,7 +167,7 @@ class DetailsTableModel extends AbstractTableModel
 		properties[1] = "Number of subregions";		values[1] = region.getNumberOfSubRegions();
 		properties[2] = "Name";						values[2] = region.getName();
 		properties[3] = "Fill";						values[3] = region.getFill();
-		properties[4] = "Address";					values[4] = region.getData().getAddress();
+		properties[4] = "Address";					values[4] = toLargeHexString(region.getData().getAddress());
 		properties[5] = "Size";						values[5] = region.getData().getSize();
 		properties[6] = "Info";						values[6] = region.getData().getInfo();
 	}
@@ -179,7 +186,7 @@ class DetailsTableModel extends AbstractTableModel
 		values = new Object[4];
 		
 		properties[0] = "Type";						values[0] = "RegionData";
-		properties[1] = "Address";					values[1] = regionData.getAddress();
+		properties[1] = "Address";					values[1] = toLargeHexString(regionData.getAddress());
 		properties[2] = "Size";						values[2] = regionData.getSize();
 		properties[3] = "Info";						values[3] = regionData.getInfo();
 	}
@@ -199,8 +206,8 @@ class DetailsTableModel extends AbstractTableModel
 		
 		properties[0] = "Type";						values[0] = "Space";
 		properties[1] = "Name";						values[1] = space.getName();
-		properties[2] = "Origin";					values[2] = space.getOrigin();
-		properties[3] = "Length";					values[3] = space.getLength();
+		properties[2] = "Origin";					values[2] = toLargeHexString(space.getOrigin());
+		properties[3] = "Length";					values[3] = toLargeHexString(space.getLength());
 		properties[4] = "Erasable";					values[4] = space.getAttributes().isErasable();
 		properties[5] = "Readable";					values[5] = space.getAttributes().isReadable();
 		properties[6] = "Writable";					values[6] = space.getAttributes().isWritable();
@@ -233,7 +240,7 @@ class DetailsTableModel extends AbstractTableModel
 		properties[0] = "Type";						values[0] = "IdentifierContent";
 		properties[1] = "Identifier";				values[1] = identifierContent.getIdentifier();
 		properties[2] = "File";						values[2] = identifierContent.getFile();
-		properties[3] = "Address";					values[3] = identifierContent.getAddress();
+		properties[3] = "Address";					values[3] = toLargeHexString(identifierContent.getAddress());
 		properties[4] = "Size";						values[4] = identifierContent.getSize();
 	}
 	
@@ -243,7 +250,7 @@ class DetailsTableModel extends AbstractTableModel
 		
 		properties[0] = "Type";						values[0] = "DataContent";
 		properties[1] = "Data";						values[1] = dataContent.getData();
-		properties[2] = "Address";					values[2] = dataContent.getAddress();
+		properties[2] = "Address";					values[2] = toLargeHexString(dataContent.getAddress());
 		properties[3] = "Size";						values[3] = dataContent.getSize();
 	}
 	
@@ -253,7 +260,7 @@ class DetailsTableModel extends AbstractTableModel
 		
 		properties[0] = "Type";						values[0] = "FillContent";
 		properties[1] = "Fill";						values[1] = fillContent.getFill();
-		properties[2] = "Address";					values[2] = fillContent.getAddress();
+		properties[2] = "Address";					values[2] = toLargeHexString(fillContent.getAddress());
 		properties[3] = "Size";						values[3] = fillContent.getSize();
 	}
 	

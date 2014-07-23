@@ -217,7 +217,7 @@ class MemoryMapTree extends JTree
 			else if (info instanceof SubRegion)
 				return "Subregion: " + ((SubRegion)info).getName();
 			else if (info instanceof RegionData)
-				return "Regiondata @ " + ((RegionData)info).getAddress();
+				return "Regiondata @ " + "0x" + Long.toHexString(0x100000000L | (((RegionData)info).getAddress() & 0xFFFFFFFF)).substring(1).toUpperCase();
 			else
 				return info.toString();
 		}
